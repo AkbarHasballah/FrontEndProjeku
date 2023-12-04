@@ -17,7 +17,7 @@ signupForm.addEventListener('submit', async (e) => {
 
   try {
     // Kirim data ke API signup
-    const response = await fetch('https://asia-southeast2-projeku-407007.cloudfunctions.net/function-1Signup', {
+    const response = await fetch('Isi dengan API SIGNUP', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
