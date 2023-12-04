@@ -30,7 +30,7 @@ signupForm.addEventListener('submit', async (e) => {
       // Jika berhasil, tampilkan notifikasi
       alert('Pendaftaran berhasil!');
       // Arahkan ke halaman signin
-      window.location.href = '../signin.html';
+      window.location.href = '../index.html';
     } else {
       // Jika gagal, tangani error
       console.error('Pendaftaran gagal.');
